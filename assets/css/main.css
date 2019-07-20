@@ -84,6 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
+		background: #121212;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -135,7 +136,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		/*color: #787878;*/
+		color: white;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2443,10 +2445,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: black;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: white !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2458,6 +2460,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin: 1em .25em
 	}
 
 		input[type="submit"]:hover,
@@ -3236,3 +3239,10 @@ input, select, textarea {
 	.devicon-git-plain {
 		font-size: 6rem
 	}
+	.devicon-html5-plain-wordmark {
+		font-size: 6rem
+	}
+	.devicon-css3-plain-wordmark{
+		font-size: 6rem
+	}
+	
